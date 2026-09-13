@@ -14,7 +14,7 @@ design** — mostly by building things and breaking them.
 
 ## 🚀 Featured project
 
-### [AeroTracker](https://github.com/USERNAME/aerotracker) — Flight price tracker on Telegram
+### [AeroTracker](https://github.com/escalasebastian/AeroTracker) — Flight price tracker on Telegram
 
 A Telegram bot that monitors flight prices and pushes real-time alerts when a fare drops.
 Built as a production-shaped system rather than a demo:
