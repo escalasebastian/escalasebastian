@@ -1,16 +1,57 @@
-## Hi there 👋
+# Hi, I'm Sebastian 👋
 
-<!--
-**escalasebastian/escalasebastian** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Backend Developer · Java & Spring Boot · Madrid, Spain**
 
-Here are some ideas to get you started:
+I build backend services and event-driven systems in Java. I currently work as a Java
+Developer in an enterprise environment, focused on distributed messaging, containerised
+services, and adding new functionality to an existing codebase while following Clean Code
+principles.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I'm interested in going deeper into **distributed systems, cloud infrastructure and system
+design** — mostly by building things and breaking them.
+
+---
+
+## 🚀 Featured project
+
+### [AeroTracker](https://github.com/USERNAME/aerotracker) — Flight price tracker on Telegram
+
+A Telegram bot that monitors flight prices and pushes real-time alerts when a fare drops.
+Built as a production-shaped system rather than a demo:
+
+- **5 decoupled services** (`api`, `scheduler`, `price-checker`, `notification`, `rabbitmq`)
+  communicating asynchronously — a slow or failing price check never blocks user commands
+- **Event-driven with RabbitMQ**, so price checks and notifications scale independently
+- **Deployed on AWS** (ECS Fargate, RDS, VPC) with CloudWatch observability, kept entirely
+  within free-tier limits
+- **CI/CD with GitHub Actions**, containerised end to end with Docker
+- Uses **Telegram Long Polling instead of Webhooks** — deliberate trade-off to avoid exposing
+  a public endpoint and paying for a load balancer
+
+`Java 21` · `Spring Boot 3` · `PostgreSQL 16` · `RabbitMQ` · `Docker` · `AWS` · `GitHub Actions`
+
+---
+
+## 🛠️ Tech stack
+
+**Languages** — Java, Kotlin, C#, SQL
+
+**Backend** — Spring, Spring Boot, REST APIs, RabbitMQ, MQTT, JUnit, Mockito
+
+**Data** — PostgreSQL, SQL Server
+
+**Infrastructure** — Docker, AWS (ECS Fargate, RDS, VPC, CloudWatch), GitHub Actions, Git
+
+**Practices** — Clean Architecture, Clean Code, event-driven design, testing, CI/CD
+
+---
+
+## 📚 Currently
+
+- **B.Sc. in Software Development and Testing** (joint degree — UOC, UNED, OUNL)
+
+---
+
+## 📫 Get in touch
+
+[LinkedIn](https://linkedin.com/in/sebastian-escala-cuervo) · escalasebastian@gmail.com
